@@ -1,0 +1,52 @@
+.brands{
+    width: 88%;
+    height: 350px;
+    background-color: white;
+    margin-right: 65px;
+    .brandsnam{
+     width: fit-content;
+    display: flex;
+    right: 150px;
+        .brandh{
+         font-size: 25px;
+        font-family: shabnam-2;
+        top: 500px;
+        color: rgb(112, 106, 106);
+        margin-right: 50px;
+        margin-top: 20px;
+        }
+    }
+    .slider-5{
+      width: 100%;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: white;
+        .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      display: flex;
+      background: white;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      border-color: gray;
+    }
+
+    .swiper-slide img {
+      align-items: center;
+      width: 150px;
+      height: 100px;
+      margin-right: 45px;
+      margin-top: 190px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      position: absolute;
+    }
+    }
+}

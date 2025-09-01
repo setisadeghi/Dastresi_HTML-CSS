@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wraper{
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 9px;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+    margin: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(26, 26, 85);
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(112, 112, 185);
+}
+@font-face{
+    font-family: shabnam;
+    src: url(../font/fa/Shabnam-Medium-FD.eot);
+    src: url(../font/fa/Shabnam-Medium-FD.ttf);
+    src: url(../font/fa/Shabnam-Medium-FD.woff);
+    src: url(../font/fa/Shabnam-Medium-FD.woff2);
+}
+@font-face{
+    font-family: shabnam-2;
+    src: url(../font/fa/Shabnam.woff);
+}

@@ -1,0 +1,50 @@
+.mop{
+    font-size: 28px;
+    font-family: shabnam;
+    margin-right: 45px;
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(43, 42, 42);
+}
+
+.montakhab{
+    width: 92%;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 45px;
+    .slider-2{
+        background-color: rgb(255, 250, 250);
+        width: 90%;
+        height: 200px;
+        display: flex;
+        border-radius: 15px;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          background: white;
+          display: flex;
+          width: 200px;
+          height: 200px;
+          
+        }
+    
+        @media (max-width: 760px) {
+          .swiper-button-next {
+            right: 20px;
+            transform: rotate(90deg);
+          }
+    
+          .swiper-button-prev {
+            left: 20px;
+            transform: rotate(90deg);
+          }
+        }
+    }
+    }
